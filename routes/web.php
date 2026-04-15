@@ -13,6 +13,7 @@ use App\Http\Controllers\PengajuanController;
 use App\Http\Controllers\SuratController;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\LaporanController;
+use App\Http\Controllers\KepalaDesaDashboardController;
 
 // Redirect root to login
 Route::get('/', function () {
@@ -41,6 +42,11 @@ Route::middleware(['auth'])->group(function () {
             Route::get('/get-persyaratan/{layananId}', [MasyarakatPengajuanController::class, 'getPersyaratanByLayanan'])->name('get-persyaratan');
         });
     });
+});
+
+// Kepala Desa Dashboard Routes
+Route::middleware(['auth'])->group(function () {
+    Route::get('/kepala-desa/dashboard', [KepalaDesaDashboardController::class, 'index'])->name('kepala-desa.dashboard');
 });
 
 // Admin Dashboard Routes
