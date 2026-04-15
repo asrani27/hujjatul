@@ -113,11 +113,8 @@
                 <img src="{{ base_path('public/logo/tanbu.png') }}" width="10px">
             </div>
             <div class="header-text">
-                <h1>DINAS PENDIDIKAN DAN KEBUDAYAAN</h1>
-                <h2>KABUPATEN TANAH BUMBU</h2>
-                <h2>SEKOLAH MENENGAH KEJURUAN NEGERI 2 SIMPANG EMPAT</h2>
-                <p>Jl. sampurna Desa hidayah makmur kecamatan simpang empat kabupaten tanah bumbu
-                </p>
+                <h2>KANTOR DESA KERSIK PUTIH KECAMATAN BATULICIN<br />KABUPATEN TANAH BUMBU</h2>
+                <p>Jl. Dharma Praja RT. 08 Kec. Batulicin, Kab. Tanah Bumbu<br />Kalimantan Selatan</p><br/>
             </div>
 
         </div>
