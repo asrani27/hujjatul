@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Laporan Pengajuan</title>
+    <title>Laporan User</title>
 
     <style>
         body {
@@ -109,15 +109,15 @@
 
         <div class="header">
 
-            <div class="logo">
-                <img src="{{ base_path('public/logo/tanbu.png') }}" width="80px">
+            <div class="logo-container">
+                <img src="{{ base_path('public/logo/tanbu.png') }}" width="10px">
             </div>
-
             <div class="header-text">
-                <h2>KANTOR DESA KERSIK PUTIH KECAMATAN BATULICIN</h2>
-                <h3>KABUPATEN TANAH BUMBU</h3>
-                <p>Jl. Dharma Praja RT. 08 Kec. Batulicin, Kab. Tanah Bumbu</p>
-                <p>Kalimantan Selatan</p>
+                <h1>DINAS PENDIDIKAN DAN KEBUDAYAAN</h1>
+                <h2>KABUPATEN TANAH BUMBU</h2>
+                <h2>SEKOLAH MENENGAH KEJURUAN NEGERI 2 SIMPANG EMPAT</h2>
+                <p>Jl. sampurna Desa hidayah makmur kecamatan simpang empat kabupaten tanah bumbu
+                </p>
             </div>
 
         </div>
