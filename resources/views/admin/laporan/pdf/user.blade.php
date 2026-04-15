@@ -16,35 +16,46 @@
         }
 
         .header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .logo {
-            padding-top: 30px;
-            width: 90px;
-        }
-
-        .header-text {
             text-align: center;
-            flex: 1;
+            margin-bottom: 10px;
+            position: relative;
         }
 
-        .header-text h2 {
-            margin: 0;
+        .logo-container {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 250px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: auto;
+            max-height: 100px;
+        }
+
+        .header-content {
+            margin-left: 100px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 1px 0;
+            text-transform: uppercase;
+        }
+
+        .header h2 {
             font-size: 20px;
             font-weight: bold;
+            margin: 1px 0;
+            text-transform: uppercase;
         }
 
-        .header-text h3 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .header-text p {
-            margin: 2px 0;
+        .header p {
+            font-size: 12px;
+            margin: 3px 0;
         }
 
         .line {
@@ -76,6 +87,7 @@
 
         table th {
             font-weight: bold;
+            font-size: 12px;
         }
 
         .ttd {
@@ -98,7 +110,7 @@
         <div class="header">
 
             <div class="logo">
-                <img src="{{ base_path('public/logo/tanbu.svg') }}" width="80">
+                <img src="{{ base_path('public/logo/tanbu.png') }}" width="80px">
             </div>
 
             <div class="header-text">
